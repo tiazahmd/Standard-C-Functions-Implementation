@@ -9,5 +9,7 @@ This is my take on implementing some standard C Library functions. So far, my im
 - `dup2()` [Found in `<unistd.h>`]
 - `readv()` [Found in `<sys/uio.h>`]
 - `writev()` [Found in `<sys/uio.h>`]
+- `setenv()` [Found in `<stdlib.h>`]
+- `unsetenv()` [Found in `<stdlib.h>`]
 
 **Error Functions & Lib**: These two are helper library and outputs to compile codes. They are not necessary for all the implementations, but is necessary if a header or output file seems to be missing. Compile using the following: `gcc -I ../lib error_functions.o tee_imp.c -o tee-imp`.
